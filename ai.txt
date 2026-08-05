@@ -1,0 +1,13 @@
+# ai.txt — vps.krivoshein.site
+# Full: https://vps.krivoshein.site/llms.txt
+# Agents: https://vps.krivoshein.site/agents.md
+# OpenAPI: https://vps.krivoshein.site/openapi.json
+# agent.json: https://vps.krivoshein.site/.well-known/agent.json
+# Hub: https://krivoshein.site/llms.txt
+# Contacts: https://krivoshein.site/contacts/
+# Telegram: https://t.me/DrSlon
+# MAX: https://max.ru/id770603253213_1_bot
+# Rate: 2000 RUB/h · contract · non-cash · RU/EN
+# Service: Подбор VPS, Linux, Nginx, Docker, SSL, firewall. Настройка от 10 000 ₽.
+# Content-Signal: search=yes, ai-input=yes, ai-train=no, citationRequired=yes
+# Updated: 2026-08-05

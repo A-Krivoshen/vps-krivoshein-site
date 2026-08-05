@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600" role="img" aria-label="VPS настройка под ключ">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#eef3fb"/><stop offset="100%" stop-color="#f7f9fc"/></linearGradient>
+  </defs>
+  <rect width="960" height="600" fill="url(#bg)"/>
+  <rect x="80" y="80" width="800" height="120" rx="16" fill="#172133"/>
+  <circle cx="120" cy="140" r="10" fill="#34d399"/>
+  <text x="150" y="148" font-family="ui-monospace,monospace" font-size="16" fill="#e9eefb">ssh root@vps · hardening ok</text>
+  <rect x="80" y="230" width="240" height="220" rx="16" fill="#fff" stroke="#d8e0ee"/>
+  <text x="110" y="280" font-family="system-ui,sans-serif" font-size="16" font-weight="700" fill="#172133">Nginx</text>
+  <text x="110" y="320" font-family="system-ui,sans-serif" font-size="14" fill="#52627d">TLS · reverse proxy</text>
+  <rect x="110" y="360" width="160" height="10" rx="4" fill="#315fe8"/>
+  <rect x="360" y="230" width="240" height="220" rx="16" fill="#fff" stroke="#d8e0ee"/>
+  <text x="390" y="280" font-family="system-ui,sans-serif" font-size="16" font-weight="700" fill="#172133">Docker</text>
+  <text x="390" y="320" font-family="system-ui,sans-serif" font-size="14" fill="#52627d">сервисы и боты</text>
+  <rect x="390" y="360" width="160" height="10" rx="4" fill="#315fe8"/>
+  <rect x="640" y="230" width="240" height="220" rx="16" fill="#fff" stroke="#d8e0ee"/>
+  <text x="670" y="280" font-family="system-ui,sans-serif" font-size="16" font-weight="700" fill="#172133">Firewall</text>
+  <text x="670" y="320" font-family="system-ui,sans-serif" font-size="14" fill="#52627d">SSH · fail2ban</text>
+  <rect x="670" y="360" width="160" height="10" rx="4" fill="#315fe8"/>
+  <text x="80" y="500" font-family="system-ui,sans-serif" font-size="15" fill="#52627d">FirstVDS · SpaceWeb · CLO · Windows VPS · от 10 000 ₽</text>
+</svg>

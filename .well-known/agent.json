@@ -1,0 +1,101 @@
+{
+  "name": "vps.krivoshein.site",
+  "description": "Подбор VPS, Linux, Nginx, Docker, SSL, firewall. Настройка от 10 000 ₽.",
+  "url": "https://vps.krivoshein.site/",
+  "version": "2026-08-05",
+  "provider": {
+    "name": "Алексей Кривошеин",
+    "organization": "ИП Кривошеин Алексей Сергеевич",
+    "url": "https://krivoshein.site/",
+    "email": "aleksey@krivoshein.site",
+    "telephone": "+79636641615"
+  },
+  "language": [
+    "ru",
+    "en"
+  ],
+  "defaultLanguage": "ru",
+  "contact": {
+    "telegram": "https://t.me/DrSlon",
+    "max": "https://max.ru/id770603253213_1_bot",
+    "email": "aleksey@krivoshein.site",
+    "phone": "+79636641615",
+    "page": "https://krivoshein.site/contacts/",
+    "preferred": [
+      "telegram",
+      "max"
+    ]
+  },
+  "commercial": {
+    "hourlyRateRub": 2000,
+    "currency": "RUB",
+    "contract": true,
+    "nonCash": true,
+    "primaryConsultationFree": true,
+    "experienceYears": 12,
+    "pricingNote": "Ориентиры, не публичная оферта.",
+    "offers": [
+      {
+        "name": "Настройка VPS",
+        "priceHint": "от 10 000 ₽"
+      },
+      {
+        "name": "Переезд",
+        "priceHint": "по смете"
+      }
+    ]
+  },
+  "documentation": {
+    "llms": "https://vps.krivoshein.site/llms.txt",
+    "llmsFull": "https://vps.krivoshein.site/llms-full.txt",
+    "aiIndex": "https://vps.krivoshein.site/ai.txt",
+    "agents": "https://vps.krivoshein.site/agents.md",
+    "openapi": "https://vps.krivoshein.site/openapi.json",
+    "apiCatalog": "https://vps.krivoshein.site/.well-known/api-catalog",
+    "sitemap": "https://vps.krivoshein.site/sitemap.xml",
+    "privacy": "https://vps.krivoshein.site/privacy.html",
+    "contacts": "https://krivoshein.site/contacts/",
+    "ecosystemHub": "https://krivoshein.site/llms.txt"
+  },
+  "capabilities": {
+    "markdownDiscovery": true,
+    "jsonLd": true,
+    "openApi": true,
+    "skills": [
+      "vps",
+      "linux",
+      "nginx",
+      "docker",
+      "devops",
+      "ssl",
+      "firewall"
+    ]
+  },
+  "usagePolicy": {
+    "search": true,
+    "aiInput": true,
+    "aiTrain": false,
+    "citationRequired": true
+  },
+  "relatedSites": [
+    "https://krivoshein.site/",
+    "https://landing.krivoshein.site/",
+    "https://wordpress.krivoshein.site/",
+    "https://vps.krivoshein.site/",
+    "https://bots.krivoshein.site/",
+    "https://direct.krivoshein.site/",
+    "https://ai-ready.krivoshein.site/",
+    "https://cybertools.cc/",
+    "https://domaintools.site/",
+    "https://study.krivoshein.site",
+    "https://support.krivoshein.site",
+    "https://fortesting.ru"
+  ],
+  "updated": "2026-07-29",
+  "contentSignal": {
+    "search": true,
+    "aiInput": true,
+    "aiTrain": false,
+    "citationRequired": true
+  }
+}
