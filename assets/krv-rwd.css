@@ -875,3 +875,61 @@ body.art-lb #faq summary:focus-visible,
     min-height: 44px !important;
   }
 }
+
+/* vps-audit-20260807-start */
+.krv-badge--cloud {
+  display: inline-flex;
+  align-self: flex-start;
+  margin-bottom: 0.75rem;
+  background: #e0f2fe;
+  color: #0c4a6e;
+  border-radius: 999px;
+  padding: 0.25rem 0.75rem;
+  font-weight: 600;
+}
+html[data-theme="dark"] .krv-badge--cloud,
+body.dark .krv-badge--cloud {
+  background: #0c4a6e;
+  color: #e0f2fe;
+}
+.krv-badge--slate {
+  display: inline-flex;
+  align-self: flex-start;
+  margin-bottom: 0.75rem;
+  background: var(--krv-soft, #f1f5f9);
+  color: var(--krv-ink, #0f172a);
+  border-radius: 999px;
+  padding: 0.25rem 0.75rem;
+  font-weight: 600;
+}
+/* Product grids: equal columns, no asym package */
+body[data-product="vps"] #servers .grid.krv-keep-equal,
+body[data-product="vps"] #windows .grid.krv-keep-equal {
+  grid-template-columns: 1fr !important;
+}
+@media (min-width: 768px) and (max-width: 1023.98px) {
+  body[data-product="vps"] #servers .grid.krv-keep-equal,
+  body[data-product="vps"] #windows .grid.krv-keep-equal {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+}
+@media (min-width: 1024px) {
+  body[data-product="vps"] #servers .grid.krv-keep-equal,
+  body[data-product="vps"] #windows .grid.krv-keep-equal {
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  }
+}
+body.art-lb #servers .grid.krv-keep-equal > :first-child,
+body.art-lb #windows .grid.krv-keep-equal > :first-child {
+  background: inherit !important;
+  border-color: inherit !important;
+}
+body[data-product="vps"] #servers .grid > .flex.flex-col > a.mt-6,
+body[data-product="vps"] #windows .grid > .flex.flex-col > a.mt-6 {
+  margin-top: auto !important;
+}
+body[data-product="vps"] #windows {
+  scroll-margin-top: 7.25rem;
+}
+/* vps-audit-20260807-end */
+
