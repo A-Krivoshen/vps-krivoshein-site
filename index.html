@@ -496,7 +496,7 @@
           <div class="mt-1 text-3xl font-semibold tracking-tight">VPC<span class="text-base font-normal text-slate-500"> / ВМ</span></div>
           <div class="mt-4 text-sm text-slate-600">Облачная платформа: VPC, виртуальные машины и инфраструктура для продакшена. Когда нужен mature cloud, а не «просто VPS». Можно развернуть Linux или Windows Server.</div>
         </div>
-        <a href="https://selectel.ru/services/cloud/vpc/?ref_code=2c6445c777" target="_blank" rel="noopener noreferrer sponsored nofollow"
+        <a href="https://selectel.ru/services/cloud/vpc/?ref_code=2c6445c777" target="_blank" rel="nofollow noopener noreferrer sponsored"
            class="mt-6 block text-center bg-krv shadow-krv-cta hover:bg-krv-dark transition-colors text-white font-semibold py-3 rounded-2xl text-sm">
           Выбрать в Selectel
         </a>
@@ -607,7 +607,7 @@
           <div class="mt-1 text-2xl font-semibold tracking-tight">Windows Server</div>
           <div class="mt-3 text-sm text-slate-600">В облаке Selectel можно развернуть ВМ с Windows Server (лицензии/образы — по условиям провайдера). Для продакшена и инфраструктуры, не только «дешёвый VPS».</div>
         </div>
-        <a href="https://selectel.ru/services/cloud/vpc/?ref_code=2c6445c777" target="_blank" rel="noopener noreferrer sponsored nofollow"
+        <a href="https://selectel.ru/services/cloud/vpc/?ref_code=2c6445c777" target="_blank" rel="nofollow noopener noreferrer sponsored"
            class="mt-6 block text-center bg-krv shadow-krv-cta hover:bg-krv-dark transition-colors text-white font-semibold py-3 rounded-2xl text-sm">
           Выбрать в Selectel
         </a>
@@ -916,31 +916,21 @@
   </div>
 
   
-  <div id="krv-cookie" class="krv-cookie" role="dialog" aria-label="Уведомление о cookies" hidden>
+    <div id="krv-cookie" class="krv-cookie" role="region" aria-label="Уведомление о cookies и аналитике" hidden>
     <p>
-      Мы используем cookies и обезличенную аналитику Яндекс&nbsp;Метрики для улучшения сайта.
-      Персональные данные через этот лендинг не собираем.
+      Мы используем cookies, локальное хранилище, PWA-кэш и (после вашего согласия) Яндекс&nbsp;Метрику
+      (в т.ч. карта кликов и Вебвизор) для статистики и улучшения сайта.
+      Чат-помощник на сайте может отправлять текст диалога на наш сервер поддержки.
+      Поля «короткого брифа» не сохраняются на сервере лендинга — они подставляются в сообщение Telegram.
       <a href="privacy.html">Политика конфиденциальности</a>
     </p>
     <div class="krv-cookie__actions">
-      <button type="button" class="krv-cookie__btn" id="krv-cookie-ok">Понятно</button>
+      <button type="button" class="krv-cookie__btn" id="krv-cookie-ok">Принимаю</button>
       <a class="krv-cookie__link" href="privacy.html">Подробнее</a>
     </div>
   </div>
 
-  <!-- Yandex.Metrika counter -->
-  <script type="text/javascript">
-    (function(m,e,t,r,i,k,a){
-      m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-      m[i].l=1*new Date();
-      for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
-      k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
-    })(window, document, 'script', 'https://mc.yandex.ru/metrika/tag.js?id=110134054', 'ym');
-    ym(110134054, 'init', {ssr:true, webvisor:true, clickmap:true, accurateTrackBounce:true, trackLinks:true});
-  </script>
-  <noscript><div><img src="https://mc.yandex.ru/watch/110134054" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-  <!-- /Yandex.Metrika counter -->
-  <!-- KRV AI Assistant -->
+<!-- KRV AI Assistant -->
   <script src="https://support.krivoshein.site/widget/krv-assistant.js?v=20260730r" defer data-api="https://support.krivoshein.site/api/v1" data-side="right"></script>
 
 <script src="assets/cookie-pwa.js" defer></script>
