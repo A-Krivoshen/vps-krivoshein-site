@@ -1250,5 +1250,13 @@
   "Выбрать на Selectel": "Select on Selectel",
   "Отзывы клиентов на Яндекс Картах.": "Client reviews on Yandex Maps.",
   "Проекты из портфолио и отзывы клиентов на Яндекс Картах.": "Portfolio projects and client reviews on Yandex Maps.",
-  "Только живые клиентские сайты - можно открыть и посмотреть.": "Live client sites only - open them and take a look."
+  "Только живые клиентские сайты - можно открыть и посмотреть.": "Live client sites only - open them and take a look.",
+  "Подбор VPS, защита сервера и запуск сервисов.": "VPS selection, server hardening and service launch.",
+  "Когда нужно надёжное облако, а не «просто VPS».": "When you need a robust cloud, not “just a VPS”.",
+  "На такой же настройке работают cybertools.cc (300+ инструментов), мои лендинги и MAX-бот. Подбираю тариф, ставлю ОС, безопасность, Docker и бэкапы - то же самое делаю для клиентов.": "cybertools.cc (300+ tools), my landing pages and the MAX bot run on the same setup. I pick the plan, install the OS, security, Docker and backups - the same I do for clients.",
+  "Рабочий сервис, можно открыть": "A live service you can open",
+  "свой проект": "own project",
+  "работает каждый день": "runs every day",
+  "сайт": "site",
+  "сайт работает": "site is live"
 }
