@@ -1258,5 +1258,7 @@
   "свой проект": "own project",
   "работает каждый день": "runs every day",
   "сайт": "site",
-  "сайт работает": "site is live"
+  "сайт работает": "site is live",
+  "Та же базовая цена в общем прайсе.": "The same base price is in the main price list.",
+  "Открыть раздел VPS": "Open the VPS section"
 }
