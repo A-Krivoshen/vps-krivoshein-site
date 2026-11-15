@@ -1,5 +1,5 @@
 /* PWA service worker — https://vps.krivoshein.site */
-var CACHE = 'krv-vps-eco-20261115';
+var CACHE = 'krv-vps-eco2-20261115';
 var PRECACHE = [
   '/',
   '/privacy.html',
